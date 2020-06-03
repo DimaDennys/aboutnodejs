@@ -7,8 +7,8 @@ module.exports.f = function () {
     console.log("export function");
 };
 
-/*
+
 module.exports = function () {
     console.log("overwrite entire exports");
 };
-*/
+

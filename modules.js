@@ -6,5 +6,9 @@ console.log(a);
 
 var m2 = require('./module2');
 console.log(m2);
+m2();
+/*
 console.log(m2.b);
 console.log(m2.f());
+*/
+
