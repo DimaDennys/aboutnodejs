@@ -15,3 +15,13 @@ console.log(m2.f());
 const _ = require('underscore');
 const arr = _.range(1,11);
 console.log(arr);
+
+const http = require('http');
+const server = http.createServer( (req, res) => {
+
+console.log('I got a request!');
+res.write('Hi is the responde');
+res.end();
+});
+
+server.listen(3000);
