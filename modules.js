@@ -12,3 +12,6 @@ console.log(m2.b);
 console.log(m2.f());
 */
 
+const _ = require('underscore');
+const arr = _.range(1,11);
+console.log(arr);
