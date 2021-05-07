@@ -5,7 +5,7 @@
   "main": "module2.js",
   "dependencies": {
     "backbone": "^1.4.0",
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {},
   "scripts": {
